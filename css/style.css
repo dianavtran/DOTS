@@ -16,7 +16,7 @@ header {
 	margin: 0;
 	background-color: #444944;
 	width: 100%;
-	padding-top: 20px;	
+	padding: 20px 0;	
 }
 
 nav {
@@ -25,7 +25,6 @@ nav {
 }
 
 section {
-	background-color: #393D39;
 	width: 100%;
 	padding: 10px 0;
 }
@@ -50,6 +49,10 @@ li {
 	margin-left: 25px;
 }
 
+.shirts {
+	background-color: none;
+}
+
 .floatLeft {
 	float: left;
 }
@@ -60,6 +63,7 @@ li {
 
 .filter {
 	text-align: center;
+	background-color: #393D39;
 }
 
 .grey {
@@ -74,9 +78,49 @@ li {
 	text-transform: none;
 	font-size: 18px;
 	color: #eee;
+	padding: 20px 0;
 }
 
 .imgOffset {
 	margin-left: -22px;
 	margin-right: 10px;
 }
+
+.containerOuter {
+	width: 240px;
+	margin: 10px 30px;
+	display: inline-block;
+}
+
+.containerInner {
+	background-color: #fff;
+	width: 220px;
+	text-align: center;
+	padding: 10px;
+	min-height: 250px;
+}
+
+.containerOuter p {
+	margin: 0;
+	color: #999;
+	font-size: 12px;
+	margin: 0 0 3px 10px;
+}
+
+.shirtTitle {
+	color: #222;
+	font-size: 12px;
+	float: left;
+	text-align: left;
+	width: 170px;
+}
+
+.shirtPrice {
+	color: #B3FF0D;
+	text-align: center;
+	background-color: #444944;
+	padding: 2px;
+	width: 30px;
+	float: right;
+}
+
