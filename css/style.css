@@ -72,18 +72,18 @@ a:active {
 }
 
 nav a {
-	color: #fff;
+	color: #eee;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #fff;
+	color: #eee;
 	text-decoration: none;
 	border-bottom: 4px solid #B3FF0D;
 }
 
 nav a:active {
-	color: #fff;
+	color: #eee;
 	text-decoration: none;
 	border-bottom: 4px solid #B3FF0D;
 }
