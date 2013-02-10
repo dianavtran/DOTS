@@ -1,0 +1,21 @@
+
+html, body {
+	background: transparent url('bg.png') repeat;
+}
+
+#topGlow {
+	background: transparent url('glow.png') repeat-x;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	height: 400px;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+#logo {
+	width: 800px;
+	margin: 0 auto;
+}
